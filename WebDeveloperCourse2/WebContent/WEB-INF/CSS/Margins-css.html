@@ -9,10 +9,12 @@
 	background-color: lime;
 	width:50%;
 	float:right;
+	padding: 20px;
 }
 .div2{
 	background-attachment:yellow;
 	float:left;
+	padding: 10px 20px 30px 40px;
 }
 
 .div3{
@@ -20,6 +22,10 @@
  background-color: fuchsia;
 }
 
+body {
+	margin:0;
+	padding:0;
+}
 </style>
 </head>
 <body>
@@ -32,6 +38,8 @@
 		<li>Float: floats elements to side by side (left or right as indicated)</li>
 		<li>Elements which are not floating get squeeze in between floated sections </li>
 		<li>To place elements beneath we need to use <em>clear:both</em></li>
+		<li>use cssReset to make elements appear name in all browsers</li>
+		<li>to get rid of default page borders use <em>margin:0;padding:0;</em> to the body tag</li>
 	</ul>
 	<div class="div1">
 		<h1>Division-1</h1>
