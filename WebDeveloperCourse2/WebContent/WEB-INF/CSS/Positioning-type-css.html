@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Positioning-css</title>
+<style type="text/css">
+h1{
+	text-align:center;
+	color:teal;
+}
+
+#text-div{
+	/* position:absolute;
+	left:25%; */
+	background-color: fuchsia;
+	opacity:0.8;
+	color: lime;
+}
+.first-div-abs{
+	position:absolute;
+	left:40%;
+	top:40%;
+	background-color: Yellow;
+	width: 50%;	
+	z-index: 1;
+	opacity:0.7;
+}
+.secong-div-reltv{
+	position:relative;
+	left:40%;
+	top:10%;
+	background-color: black;
+	width: 25%;
+}
+.third-div-fxd{
+	position:fixed;
+	background-color:green;
+	width: 75%;
+	left:10%;
+	top:52%;
+}
+</style>
+</head>
+<body>
+<h1>Positioning elements</h1>
+<div id="text-div">
+	<p>Positioning of elements is of 3 types
+		<ol>
+		<li><strong>relative</strong> : Is relative to the element other wise where it would be</li>
+		<li><strong>absolute </strong>: using this takes the element completely off the flow and aligns it with respect tot he top left corner of the page</li>
+		<li><strong>fixed</strong>:Same as absolute but when page is scrolling it stays to be in the fixed position .Eg : Menu bar moving along with page</li>
+		</ol>
+	</p>
+</div>
+<div class="first-div-abs">
+	<h1>Absolute-positioned</h1>
+	
+</div>
+<div class="secong-div-reltv">
+	<h1>Relative-positioned</h1>
+</div>
+<div class="third-div-fxd">
+	<h1>Fixed positioned</h1>
+</div>
+
+</body>
+</html>
