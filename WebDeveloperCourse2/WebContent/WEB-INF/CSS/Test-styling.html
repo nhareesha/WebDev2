@@ -28,6 +28,18 @@
 	.anchor-text{
 		text-decoration: none;
 	}
+	
+	.anchor-text:hover{
+		color:red;
+		text-decoration: underline;
+	}
+	.anchor-text:visited{
+	color:green;
+	}
+	
+	.anchor-text:active{
+		color:red;
+	}
 </style>
 </head>
 <body>
@@ -42,7 +54,8 @@
 <p>This is general web safe font </p>
 </div>
 <div >
-	<a href="http://www.google.com" class="anchor-text">Go to Google.com</a>
+<p>:hover , :active, :visited, :link are called pseudo classes</p>
+	<a href="http://www.google.com" target="_blank" class="anchor-text">Go to Google.com</a>
 </div>
 </body>
 </html>
